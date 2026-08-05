@@ -781,7 +781,7 @@ p:last-child {
 /* Import/Background Layering Tool
 /* ============================================================= */
 
-.import-bg-art-container {
+.import-container {
   position: relative;
   top: 0;
   left: 0;
@@ -792,7 +792,7 @@ p:last-child {
   left: 0;
   max-width:100%;
 }
-.importbackground {
+.background {
   position: absolute;
   top: 0;
   left: 0;

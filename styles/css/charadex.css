@@ -774,3 +774,27 @@ p:last-child {
   background-color: var(--cd-rarity-legendary-bg);
   color: var(--cd-rarity-legendary-txt);
 }
+
+
+
+/* ============================================================= */
+/* Import/Background Layering Tool
+/* ============================================================= */
+
+.import-bg-art-container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.import-img {
+  position: relative;
+  top: 0;
+  left: 0;
+  max-width:100%;
+}
+.import-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width:100%;
+}

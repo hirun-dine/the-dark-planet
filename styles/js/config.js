@@ -15,9 +15,9 @@ let charadex = {};
 /* Any preview links will still show Charadex's information
 /* ==================================================================== */
 charadex.site = {
-  title: "Charadex",
-  url: "https://charadex-team.github.io/charadex-v1.0/",
-  description: `A tool for organizing small ARPGs and species.`
+  title: "The Dark Planet",
+  url: "https://hirun-dine.github.io/the-dark-planet/",
+  description: `Masterlist for the Dark Planet ARPG.`
 }
 
 /* ==================================================================== */
@@ -26,7 +26,7 @@ charadex.site = {
 /* ==================================================================== */
 charadex.sheet = {
 
-  id: "1GwgfLizD3HQCieGia6di-TfU4E3EipT9Jb0BDZQwNak",
+  id: "1rZmM4PZaWMdSg448T3sQ8JWQwdVnHuGv0b_UlqrrGsQ",
 
   pages: {
     masterlist:    "masterlist",

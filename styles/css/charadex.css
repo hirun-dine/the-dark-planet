@@ -63,7 +63,7 @@ body {
   /* Main Fonts
   ================================================================ */
   --cd-body-font-family: 'Montserrat', sans-serif;
-  --cd-header-font-family: 'Comfortaa', sans-serif;
+  --cd-header-font-family: 'Oswald', sans-serif;
   
   /* ============================================================= */
   /* Rarities
@@ -786,23 +786,7 @@ p:last-child {
 
 
 /* ============================================================= */
-/* Import/Background Layering Tool
+/* Font imports
 /* ============================================================= */
 
-.import-container {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.import-img {
-  position: relative;
-  top: 0;
-  left: 0;
-  max-width:100%;
-}
-.background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width:100%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');

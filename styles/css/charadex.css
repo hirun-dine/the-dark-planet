@@ -44,9 +44,9 @@ body {
   /* Borders
   ================================================================ */
   --cd-border-color: rgba(130,115,218, 0.125);
-  --cd-border-width: 1px;
+  --cd-border-width: 0px;
   --cd-border-style: solid;
-  --cd-border-radius: 1rem;
+  --cd-border-radius: 0.25rem;
 
   /* ============================================================= */
   /* Navbar
@@ -454,6 +454,7 @@ a:active {
   border-style: var(--cd-card-border-style) !important;
   border-color: var(--cd-card-border-color) !important;
   border-radius: var(--cd-border-radius) !important;
+  cd-card-background-color;
 }
 
 .card-header {

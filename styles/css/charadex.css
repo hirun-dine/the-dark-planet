@@ -133,7 +133,7 @@ body {
   /* Link
   ================================================================ */
 
-  --cd-link-text-color: #9388cc;
+  --cd-link-text-color: #8273da;
   --cd-link-text-color-hover: var(--cd-secondary-color);
 
 
@@ -259,7 +259,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: rgba(147,136,204,0.75);
+  color: rgba(130, 115, 218,0.75);
   text-decoration: none;
 }
 

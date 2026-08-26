@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 		  backgroundElement.attr('style', `background-image: url(${listData.profileArray[0].image})`);
 		} else {
 		  backgroundElement.each(function(i) {
-			const image = listData.array[i]?.bgurl;
-			$(this).attr('style', `background-image: url(${bgurl})`);
+			const image = listData.array[i]?.image;
+			$(this).attr('style', `background-image: url(${image})`);
 		  });
 		}
 		

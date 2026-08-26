@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       }
 	  
-	(listData) => {
 		let backgroundElement = $('.cd-import-background');
 		if (listData.type == 'profile') {
 		  backgroundElement.attr('style', `background-image: url(${listData.profileArray[0].bgurl})`);
@@ -37,7 +36,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 			$(this).attr('style', `background-image: url(${bgurl})`);
 		  });
 		}
-	  });
 
     }
   );

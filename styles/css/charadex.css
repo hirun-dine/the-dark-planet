@@ -718,6 +718,13 @@ p:last-child {
   min-height: 150px;
 }
 
+/* Prompts */
+.cd-import-background {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* Makes sure your text formatting is preserved from the sheet */
 /* Best for large areas like notes */
 .cd-text-pre {

@@ -23,17 +23,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             listData.profileArray[0].masterlistlog,
             charadex.page.masterlist.relatedData['masterlist log']
           );
-		  let backgroundElement = $('.cd-import-background');
-			if (listData.type == 'profile') {
-			  backgroundElement.attr('style', `background-image: url(${listData.profileArray[0].bgurl})`);
-			} else {
-			  backgroundElement.each(function(i) {
-				const bgurl = listData.array[i]?.bgurl;
-				$(this).attr('style', `background-image: url(${bgurl})`);
-			  });
-			}
         }
-		
+
       }
 
     }

@@ -1,3 +1,11 @@
+/* ============================================================= */
+/* Font imports
+/* ============================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
 body {
 
   /* ============================================================= */
@@ -786,11 +794,3 @@ p:last-child {
   background-color: var(--cd-rarity-legendary-bg);
   color: var(--cd-rarity-legendary-txt);
 }
-
-
-
-/* ============================================================= */
-/* Font imports
-/* ============================================================= */
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');

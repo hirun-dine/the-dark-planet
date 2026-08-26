@@ -51,12 +51,12 @@ body {
   /* ============================================================= */
   /* Navbar
   ================================================================ */
-  --cd-navbar-background-color: #222222;
+  --cd-navbar-background-color: #1d1a2b;
   --cd-navbar-brand-color: var(--cd-primary-color);
   --cd-navbar-brand-color-hover: var(--cd-secondary-color);
-  --cd-navbar-text-color: var(--cd-content-background-color);
-  --cd-navbar-link-color: var(--cd-navbar-text-color);
-  --cd-navbar-link-color-hover: var(--cd-primary-color);
+  --cd-navbar-text-color: #ffeffe;
+  --cd-navbar-link-color: #ffeffe;
+  --cd-navbar-link-color-hover: #bfa3f8;
   --cd-navbar-font-family: var(--cd-header-font-family);
 
   /* ============================================================= */
@@ -454,7 +454,7 @@ a:active {
   border-style: var(--cd-card-border-style) !important;
   border-color: var(--cd-card-border-color) !important;
   border-radius: var(--cd-border-radius) !important;
-  cd-card-background-color;
+  backdrop-filter: blur(10px);
 }
 
 .card-header {

@@ -742,7 +742,7 @@ p:last-child {
 
 /* For the hero image in the index */
 .cd-hero-title {
-  color: var(--cd-primary-color);
+  color: #fff;
   background-color: var(--cd-faded-background-color);
   border-radius: var(--cd-border-radius);
   background-size:cover;
@@ -752,7 +752,8 @@ p:last-child {
   display: flex;
   padding: 1.5rem;
   min-height: 250px;
-  font-weight: 800;
+  font-weight: 400;
+  text-transform: uppercase;
   font-size: 30pt;
   text-align:center;
 }

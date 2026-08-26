@@ -24,8 +24,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             charadex.page.masterlist.relatedData['masterlist log']
           );
         }
-
-      }
 	  
 		let backgroundElement = $('.cd-import-background');
 		if (listData.type == 'profile') {
@@ -36,7 +34,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 			$(this).attr('style', `background-image: url(${bgurl})`);
 		  });
 		}
-
+		
+      }
+	  
     }
   );
   

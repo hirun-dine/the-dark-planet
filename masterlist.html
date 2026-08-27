@@ -217,8 +217,7 @@
 
         <!-- Nav Tabs
         <!-- ----------------------------------------------------------- -->
-        <hr class="my-0">
-        <ul class="nav row n-gutters m-n1 py-4 px-md-5 px-4" id="profile-tabs" role="tablist">
+        <ul class="nav row n-gutters m-3" id="profile-tabs" role="tablist">
           <li class="col p-1 nav-item" role="presentation">
             <a class="w-100 btn btn-primary active" id="profile-tab" data-toggle="tab" href="#profile" 
             aria-controls="profile" aria-selected="true">Profile</a>
@@ -228,99 +227,171 @@
             aria-selected="false">Logs</a>
           </li>
         </ul>
-        <hr class="my-0">
 
 
-        <!-- Main Info
-        <!-- ----------------------------------------------------------- -->
-        <div class="p-md-4 p-3 tab-content">
+<!-- Main Info
+<!-- ----------------------------------------------------------- -->
+<div class="pb-3 px-3 tab-content">
 
-          <!-- Main Profile
-          <!-- ----------------------------------------------------------- -->
-          <div class="tab-pane fade active show" id="profile" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-            <h4 class="text-primary">Profile</h4>
-            <div class="row no-gutters m-n2">
 
-              <div class="col-md-6 p-2">
-                <div class="card bg-faded p-4 h-100">
 
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted col-md-5 col-6">Species</b>
-                    <span class="species"></span>
-                  </div>
+
+<!-- Main Profile
+ <!-- ----------------------------------------------------------- -->
+<div class="tab-pane fade active show" id="profile" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+
+
+<div class="row no-gutters">
+
+
+<!-- BASICS -->
+<div class="col-sm-3 mr-sm-3 mb-sm-0 mb-3">
+
+<div class="card h-100 p-3 mb-sm-0 mb-3" style="border-radius: 0rem 0rem 0.25rem 0.25rem !important;">
+
+<div class="card mt-n3 mx-n3 bg-transparent p-2 mb-3 text-muted" style="border:1px solid !important; border-radius: 0.25rem 0.25rem 0rem 0rem !important;"><h3 class="m-0 text-uppercase" style="font-size:12pt"><i class="fa-solid fa-chart-simple faded ml-1 mr-2"></i> Basics</h3></div>
+
+
+<div class="row no-gutters">
+    <div class="row no-gutters">
+    <div class="col-auto mr-2"><span class="field-name">Name.</span></div>
+    <div class="col"><span class="name"></span></div>
+    </div>
+</div>
+<hr class="my-1">
+
+<div class="row no-gutters">
+    <div class="row no-gutters">
+    <div class="col-auto mr-2"><span class="field-name">Nicknames.</span></div>
+    <div class="col"><span class="nicknames"></span></div>
+    </div>
+</div>
+<hr class="my-1">
+
+<div class="row no-gutters">
+    <div class="row no-gutters">
+    <div class="col-auto mr-2"><span class="field-name">Owner.</span></div>
+    <div class="col">@<a class="owner ownerlink"></a></div>
+    </div>
+</div>
+<hr class="my-1">
+
+<div class="row no-gutters">
+    <div class="row no-gutters">
+    <div class="col-auto mr-2"><span class="field-name">Handler.</span></div>
+    <div class="col"><span class="handler"></span></div>
+    </div>
+</div>
+<hr class="my-1">
+
+<div class="row no-gutters">
+    <div class="row no-gutters">
+    <div class="col-auto mr-2"><span class="field-name">Breed.</span></div>
+    <div class="col"><b class="species"></b> Ophern</div>
+    </div>
+</div>
+<hr class="my-1">
+
+<div class="row no-gutters">
+    <div class="row no-gutters">
+    <div class="col-auto mr-2"><span class="field-name">Health Status.</span></div>
+    <div class="col"><span class="status"></span></div>
+    </div>
+</div>
+
+<div class="card border-1 p-2 bg-primary text-uppercase text-center text-dark mt-auto mb-n3 mx-n3" style="font-size:10pt;font-family:'Oswald',sans-serif;font-weight:500;letter-spacing:0.05rem;border-radius:0rem 0rem 0.25rem 0.25rem !important;"><span class="level"></span></div>
+
+</div>
+
+
+</div>
+
+<!-- GENETICS -->
+<div class="col-sm">
+<div class="card p-3">
+
+<div class="card mt-n3 mx-n3 bg-transparent p-2 mb-3 text-muted" style="border:1px solid !important; border-radius: 0.25rem 0.25rem 0rem 0rem !important;"><h3 class="m-0 text-uppercase" style="font-size:12pt"><i class="fa-solid fa-dna faded ml-1 mr-2"></i> Genetics</h3></div>
+
+<div class="row no-gutters">
+<div class="col-sm-7 mr-sm-3 mb-sm-0 mb-3">
+    <!-- GENO/PHENO -->
+    <div class="row no-gutters">
+    <div class="col-auto mr-2"><span class="field-name">Genotype.</span></div>
+    <div class="col"><span class="genotype"></span></div>
+    </div>
+    <hr class="my-1">
+    <div class="row no-gutters">
+    <div class="col-auto mr-2"><span class="field-name">Phenotype.</span></div>
+    <div class="col"><span class="phenotype"></span></div>
+    </div>
+</div>
+
+<div class="col-sm">
+    <!-- MUTATIONS -->
+    <div class="row no-gutters align-items-top">
+    <div class="col-auto mr-2"><span class="field-name">Mutations.</span></div>
+    <div class="col"><span class="traits"></span></div>
+    </div>
+    <hr class="my-1">
+    <!-- WINGS -->
+    <div class="row no-gutters">
+    <div class="col-auto mr-2"><span class="field-name">Wings.</span></div>
+    <div class="col"><span class="wings"></span></div>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- LINEAGE -->
+<div class="card p-3 mt-3">
     
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted col-md-5 col-6">Rarity</b>
-                    <span class="rarity"></span>
-                  </div>
-    
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted col-md-5 col-6">Design Type</b>
-                    <span class="designtype"></span>
-                  </div>
-                  
-                  <hr>
+<div class="card mt-n3 mx-n3 bg-transparent p-2 mb-3 text-muted" style="border:1px solid !important; border-radius: 0.25rem 0.25rem 0rem 0rem !important;"><h3 class="m-0 text-uppercase" style="font-size:12pt"><i class="fa-solid fa-list faded ml-1 mr-2"></i> Lineage</h3></div>
 
-                  <!-- Item -->
-                  <div>
-                    <b class="text-muted">Traits</b>
-                    <div class="px-4 cd-text-pre traits cd-traits-scroll"></div>
-                  </div>
+<div class="row no-gutters align-items-end small text-uppercase">
 
-                </div>
-              </div>
+<div class="col-auto mr-2"><b style="font-family:Oswald;font-size:9.5pt;">P-1.</b> NAME</div>
 
-              <div class="col-md-6 p-2">
-                <div class="card bg-faded p-4 h-100">
+<div class="col text-right mr-2"><b style="font-family:Oswald;font-size:9.5pt;">GP-1.</b> NAME<hr class="my-1">
+<b style="font-family:Oswald;font-size:9.5pt;">GP-2.</b> NAME</div>
 
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted col-md-5 col-6">Owner</b>
-                    <a class="owner ownerlink"></a>
-                  </div>
-    
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted col-md-5 col-6">Artist</b>
-                    <a class="artist artistlink"></a>
-                  </div>
-    
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted col-md-5 col-6">Designer</b>
-                    <a class="designer designerlink"></a>
-                  </div>
+<div class="col text-right"><div><b style="font-family:Oswald;font-size:9.5pt;">GGP-1.</b> NAME<hr class="my-1">
+<b style="font-family:Oswald;font-size:9.5pt;">GGP-2.</b> NAME</div><div><hr class="my-1">
+<b style="font-family:Oswald;font-size:9.5pt;">GGP-3.</b> NAME<hr class="my-1">
+<b style="font-family:Oswald;font-size:9.5pt;">GGP-4.</b> NAME</div></div>
 
-                  <hr>
-    
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted col-md-5 col-6">Value</b>
-                    <span>$<span class="value"></span></span>
-                  </div>
-    
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted col-md-5 col-6">Status</b>
-                    <span class="status"></span>
-                  </div>
+</div>
 
-                  <hr>
-                  
-                  <!-- Item -->
-                  <div>
-                    <b class="text-muted">Notes</b>
-                    <div class="px-4 cd-text-pre notes"></div>
-                  </div>
+<div class="row no-gutters align-items-top small text-uppercase mt-3">
 
-                </div>
-              </div>
+<div class="col-auto mr-2"><b style="font-family:Oswald;font-size:9.5pt;">P-2.</b> NAME</div>
 
-            </div>
-          </div>
+<div class="col text-right mr-2"><b style="font-family:Oswald;font-size:9.5pt;">GP-3.</b> NAME<hr class="my-1">
+<b style="font-family:Oswald;font-size:9.5pt;">GP-4.</b> NAME</div>
+
+<div class="col text-right"><div><b style="font-family:Oswald;font-size:9.5pt;">GGP-5.</b> NAME<hr class="my-1">
+<b style="font-family:Oswald;font-size:9.5pt;">GGP-6.</b> NAME</div><div><hr class="my-1">
+<b style="font-family:Oswald;font-size:9.5pt;">GGP-7.</b> NAME<hr class="my-1">
+<b style="font-family:Oswald;font-size:9.5pt;">GGP-8.</b> NAME</div></div>
+
+</div>
+
+
+
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
           
           
           <!-- Logs
@@ -361,10 +432,6 @@
             </div>
           </div>
 
-          <!-- Where to Update -->
-          <div class="card bg-faded py-2 px-3 mt-3 small text-center">
-            <b>If you need to update this entry, please do so <a href="">here</a>.</b>
-          </div>
 
         </div>
       </div>

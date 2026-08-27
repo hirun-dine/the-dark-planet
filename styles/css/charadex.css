@@ -583,6 +583,12 @@ a.badge.badge-primary:active {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: var(--cd-navbar-font-family) !important;
+  font-weight: 400;
+}
+
+h1, h2 {
+  letter-spacing:0.06rem;
+  text-transform: uppercase;
 }
 
 hr {

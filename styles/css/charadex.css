@@ -501,9 +501,9 @@ a:active {
 }
 
 .btn.btn-primary {
-  color: var(--cd-button-text-color) !important;
+  color: var(--cd-button-text-color);
   background-color: var(--cd-content-background-color) !important;
-  border-color: var(--cd-navbar-dropdown-divider) !important;
+  border-color: var(--cd-navbar-dropdown-divider);
   border-width: 1px;
   border-style: solid;
   font-weight:400;

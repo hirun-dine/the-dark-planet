@@ -223,12 +223,8 @@
             aria-controls="profile" aria-selected="true">Profile</a>
           </li>
           <li class="col p-1 nav-item" role="presentation">
-            <a class="w-100 btn btn-primary" id="lineage" data-toggle="tab" href="#lineage" 
-            aria-controls="lineage" aria-selected="true">Lineage</a>
-          </li>
-          <li class="col p-1 nav-item" role="presentation">
-            <a class="w-100 btn btn-primary" id="logs-tab" data-toggle="tab" href="#logs" aria-controls="logs" 
-            aria-selected="false">Logs</a>
+            <a class="w-100 btn btn-primary" id="achievements" data-toggle="tab" href="#achievements" aria-controls="achievements" 
+            aria-selected="false">Achievements</a>
           </li>
         </ul>
 
@@ -442,6 +438,15 @@
   <div class="personality cd-text-pre"></div>
 </div>
 <!-- PERSONALITY END -->
+
+<!-- LINEAGE START -->
+<div class="card p-3 mt-3">
+  <div class="card mt-n3 mx-n3 bg-transparent p-2 mb-3 text-muted" style="border:1px solid !important; border-radius: 0.25rem 0.25rem 0rem 0rem !important;"><h3 class="m-0 text-uppercase" style="font-size:12pt"><i class="fa-regular fa-code-branch faded ml-1 mr-2"></i> lineage</h3></div>
+  <div class="lineage cd-text-pre"></div>
+</div>
+<!-- LINEAGE END -->
+
+  
 <div class="text-right mt-2"><i class="fa-solid fa-pen-nib ml-1 mr-2 text-muted"></i> Designed by @ <a class="designer" style="font-weight:500;"></a></div>
 
   
@@ -449,17 +454,17 @@
 </div>
           
           
-          <!-- Logs
+          <!-- Achievements
           <!-- ----------------------------------------------------------- -->
-          <div class="tab-pane fade" id="logs" role="tabpanel" aria-labelledby="logs-tab" tabindex="0">
-            <h4 class="text-primary">Transaction Log</h4>
+          <div class="tab-pane fade" id="achievements" role="tabpanel" aria-labelledby="achievements" tabindex="0">
+            <h4 class="text-primary">Achievements</h4>
             <div class="card bg-faded p-4" id="log-gallery">
 
               <!-- List -->
               <!-- --------------------------------------------------------------- -->
               <div class="row no-gutters">
-                <div class="col-md-3"><b>Timestamp</b></div>
-                <div class="col-md-9"><b>Reason</b></div>
+                <div class="col-md-3"><b>Date</b></div>
+                <div class="col-md-9"><b>Achievement</b></div>
               </div>
               <hr>
               <div class="log-list"></div>

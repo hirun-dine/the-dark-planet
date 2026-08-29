@@ -521,6 +521,11 @@ a:active {
   border-style: solid;
 }
 
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #8273da !important;
+  border-color: #8273da !important;
+}
+
 .badge.badge-primary {
   color: var(--cd-button-text-color) !important;
   background-color: var(--cd-button-background-color) !important;

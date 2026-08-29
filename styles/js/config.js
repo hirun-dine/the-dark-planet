@@ -42,13 +42,13 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
-    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
+    designTypes: ['All', 'Group Starter', 'Player Character'],
+    statuses: ['All', 'Healthy', 'Inbred'],
+    rarity: ['All', 'Plentiful', 'Common', 'Uncommon', 'Rare'],
     species: ['All', 'Fey', 'Titan'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
-
+    itemTypes: ['All', 'Currency', 'Achievement', 'Background', 'Ophern Egg', 'Gear (Ophern)', 'Gear (Explorer)', 'Consumable', 'Companion', 'Import Edit', 'Mutagen'],
+    traitTypes: ['All', 'Wings', 'Mutations', 'Colour Mutations', 'Mutagens']
+    
   }
 
 }

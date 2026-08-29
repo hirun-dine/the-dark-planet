@@ -513,8 +513,8 @@ a:active {
 .btn.btn-primary:focus,
 .btn.btn-primary:active,
 .btn.btn-primary.active, {
-  color: var(--cd-faded-text-color) !important;
-  border-color: var(--cd-faded-text-color) !important;
+  color: #8273da !important;
+  border-color: #8273da !important;
   background-color: var(--cd-content-background-color) !important;
   box-shadow: none !important;
   border-width: 1px;

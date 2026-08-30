@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         if (charadex.tools.checkArray(profile.masterlist)) {
           let designs = await charadex.initialize.page(
             profile.masterlist,
-            charadex.page.inventory.relatedData['handler'],
+            charadex.page.inventory.relatedData['masterlist'],
           );
         }
 

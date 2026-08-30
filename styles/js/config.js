@@ -553,7 +553,7 @@ charadex.page.handlers = {
     [charadex.sheet.pages.inventoryLog]: {
 
       sheetPage: charadex.sheet.pages.inventoryLog,
-      sitePage: 'inventories',
+      sitePage: 'handlers',
       primaryProperty: 'handler',
       relatedProperty: 'handler',
       dexSelector: 'log',

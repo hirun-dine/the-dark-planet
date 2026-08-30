@@ -42,7 +42,14 @@ document.addEventListener("DOMContentLoaded", async () => {
             charadex.page.inventory.relatedData['masterlist'],
           );
         }
-
+      
+        // Logs
+        if (charadex.tools.checkArray(profile.inventorylog)) {
+          let logs = await charadex.initialize.page(
+            profile.inventorylog,
+            charadex.page.inventory.relatedData['inventory log'],
+          );
+        }
 
       }
     }

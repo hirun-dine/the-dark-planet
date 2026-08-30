@@ -31,8 +31,9 @@ charadex.sheet = {
   pages: {
     masterlist:    "masterlist",
     masterlistLog: "masterlist log",
-    inventory:     "inventory",
+    handlers:      "handlers",
     inventoryLog:  "inventory log",
+    inventory:     "inventory",
     items:         "items",
     traits:        "traits",
     prompts:       "prompts",
@@ -501,6 +502,99 @@ charadex.page.inventory = {
   }
 
 };
+
+
+/* Inventory
+/* --------------------------------------------------------------- */
+charadex.page.handlers = {
+
+  // Dex Set Up
+  sheetPage: charadex.sheet.pages.handlers,
+  sitePage: 'handlers',
+  dexSelector: 'charadex',
+  profileProperty: 'handler',
+
+  // Dex Options
+  sort: {
+    toggle: true,
+    key: "handler",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 24,
+  },
+
+  filters: {
+    toggle: false,
+    parameters: {}
+  },
+
+  fauxFolder: {
+    toggle: false,
+    folderProperty: '',
+    parameters: [],
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: false,
+    parameters: ['Handler']
+  },
+
+  prevNext: {
+    toggle: false,
+  },
+
+
+  // Related Data
+  relatedData: {
+
+    [charadex.sheet.pages.inventoryLog]: {
+
+      sheetPage: charadex.sheet.pages.inventoryLog,
+      sitePage: 'handlers',
+      primaryProperty: 'handler',
+      relatedProperty: 'handler',
+      dexSelector: 'log',
+      profileProperty: 'id',
+      profileToggle: false,
+
+      pagination: {
+        toggle: true,
+        bottomToggle: false,
+        amount: 12,
+      },
+
+    },
+    
+
+    [charadex.sheet.pages.masterlist]: {
+
+      // This imports the config from the masterlist
+      // So you dont have to repeat yourself
+      ...charadex.page.masterlist, 
+
+      sheetPage: charadex.sheet.pages.masterlist,
+      sitePage: 'masterlist',
+      primaryProperty: 'handler',
+      relatedProperty: 'handler',
+      dexSelector: 'designs',
+      profileProperty: 'design',
+      profileToggle: false,
+
+    }
+
+  },
+
+  }
+
+};
+
+
 
 
 /* Index

@@ -26,20 +26,20 @@ document.addEventListener("DOMContentLoaded", async () => {
           'type',
           charadex.url.getPageUrl('items')
         )
-
-        // Designs
+        
+        // Handlers
+        if (charadex.tools.checkArray(profile.handlers)) {
+          let designs = await charadex.initialize.page(
+            profile.handlers,
+            charadex.page.inventory.relatedData['handlers'],
+          );
+        }
+        
+        // Opherns
         if (charadex.tools.checkArray(profile.masterlist)) {
           let designs = await charadex.initialize.page(
             profile.masterlist,
             charadex.page.inventory.relatedData['masterlist'],
-          );
-        }
-
-        // Logs
-        if (charadex.tools.checkArray(profile.inventorylog)) {
-          let logs = await charadex.initialize.page(
-            profile.inventorylog,
-            charadex.page.inventory.relatedData['inventory log'],
           );
         }
 

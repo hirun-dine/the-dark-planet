@@ -504,20 +504,18 @@ charadex.page.inventory = {
 };
 
 
-/* Inventory
+/* Handlers
 /* --------------------------------------------------------------- */
 charadex.page.handlers = {
 
-  // Dex Set Up
   sheetPage: charadex.sheet.pages.handlers,
   sitePage: 'handlers',
   dexSelector: 'charadex',
   profileProperty: 'handler',
 
-  // Dex Options
   sort: {
     toggle: true,
-    key: "handler",
+    key: "id",
     order: "asc",
     parameters: []
   },
@@ -529,71 +527,27 @@ charadex.page.handlers = {
   },
 
   filters: {
-    toggle: false,
-    parameters: {}
+    toggle: true,
+    parameters: {
+    }
   },
 
   fauxFolder: {
-    toggle: false,
-    folderProperty: '',
-    parameters: [],
+    toggle: true,
+    folderProperty: 'Type',
   },
 
   search: {
     toggle: true,
-    filterToggle: false,
-    parameters: ['Handler']
+    filterToggle: true,
+    parameters: ['All', 'Handler', 'Owner']
   },
 
   prevNext: {
-    toggle: false,
+    toggle: true,
   },
-
-
-  // Related Data
-  relatedData: {
-
-    [charadex.sheet.pages.inventoryLog]: {
-
-      sheetPage: charadex.sheet.pages.inventoryLog,
-      sitePage: 'handlers',
-      primaryProperty: 'handler',
-      relatedProperty: 'handler',
-      dexSelector: 'log',
-      profileProperty: 'id',
-      profileToggle: false,
-
-      pagination: {
-        toggle: true,
-        bottomToggle: false,
-        amount: 12,
-      },
-
-    },
-    
-
-    [charadex.sheet.pages.masterlist]: {
-
-      // This imports the config from the masterlist
-      // So you dont have to repeat yourself
-      ...charadex.page.masterlist, 
-
-      sheetPage: charadex.sheet.pages.masterlist,
-      sitePage: 'masterlist',
-      primaryProperty: 'handler',
-      relatedProperty: 'handler',
-      dexSelector: 'designs',
-      profileProperty: 'design',
-      profileToggle: false,
-
-    }
-
-  },
-
-  }
 
 };
-
 
 
 

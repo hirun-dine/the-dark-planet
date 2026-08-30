@@ -430,12 +430,12 @@ charadex.page.inventory = {
   // Related Data
   relatedData: {
 
-    [charadex.sheet.pages.inventoryLog]: {
+    [charadex.sheet.pages.handlers]: {
 
-      sheetPage: charadex.sheet.pages.inventoryLog,
-      sitePage: 'inventories',
+      sheetPage: charadex.sheet.pages.handlers,
+      sitePage: 'handlers',
       primaryProperty: 'username',
-      relatedProperty: 'username',
+      relatedProperty: 'owner',
       dexSelector: 'log',
       profileProperty: 'id',
       profileToggle: false,

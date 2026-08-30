@@ -430,6 +430,24 @@ charadex.page.inventory = {
   // Related Data
   relatedData: {
 
+    [charadex.sheet.pages.inventoryLog]: {
+
+      sheetPage: charadex.sheet.pages.inventoryLog,
+      sitePage: 'inventories',
+      primaryProperty: 'handler',
+      relatedProperty: 'handler',
+      dexSelector: 'log',
+      profileProperty: 'id',
+      profileToggle: false,
+
+      pagination: {
+        toggle: true,
+        bottomToggle: false,
+        amount: 12,
+      },
+
+    },
+
     [charadex.sheet.pages.handlers]: {
 
       sheetPage: charadex.sheet.pages.handlers,
@@ -553,7 +571,7 @@ charadex.page.handlers = {
     [charadex.sheet.pages.inventoryLog]: {
 
       sheetPage: charadex.sheet.pages.inventoryLog,
-      sitePage: 'inventories',
+      sitePage: 'handlers',
       primaryProperty: 'handler',
       relatedProperty: 'handler',
       dexSelector: 'log',

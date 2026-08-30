@@ -436,7 +436,7 @@ charadex.page.inventory = {
       sitePage: 'handlers',
       primaryProperty: 'username',
       relatedProperty: 'owner',
-      dexSelector: 'log',
+      dexSelector: 'handlers',
       profileProperty: 'id',
       profileToggle: false,
 

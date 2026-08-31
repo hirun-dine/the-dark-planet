@@ -455,7 +455,7 @@ charadex.page.inventory = {
       primaryProperty: 'username',
       relatedProperty: 'owner',
       dexSelector: 'handlers',
-      profileProperty: 'id',
+      profileProperty: 'design',
       profileToggle: false,
 
       pagination: {
@@ -529,7 +529,7 @@ charadex.page.handlers = {
   sheetPage: charadex.sheet.pages.handlers,
   sitePage: 'handlers',
   dexSelector: 'charadex',
-  profileProperty: 'handler',
+  profileProperty: 'design',
 
   sort: {
     toggle: true,

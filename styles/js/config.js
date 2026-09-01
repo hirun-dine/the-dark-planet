@@ -36,6 +36,7 @@ charadex.sheet = {
     inventoryLog:  "inventory log",
     items:         "items",
     traits:        "traits",
+    encyclopedia:  "encyclopedia",
     prompts:       "prompts",
     faq:           "faq",
     staff:         "mods",
@@ -150,6 +151,55 @@ charadex.page.traits = {
     toggle: true,
     filterToggle: true,
     parameters: ['All', 'Trait', 'Rarity']
+  },
+
+  prevNext: {
+    toggle: true,
+  },
+
+};
+
+
+/* Traits
+/* --------------------------------------------------------------- */
+charadex.page.encyclopedia = {
+
+  sheetPage: charadex.sheet.pages.encyclopedia,
+  sitePage: 'encyclopedia',
+  dexSelector: 'charadex',
+  profileProperty: 'codex',
+
+  sort: {
+    toggle: true,
+    key: "id",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 24,
+  },
+
+  filters: {
+    toggle: true,
+    parameters: {
+      'Type': charadex.sheet.options.traitTypes,
+      'Rarity': charadex.sheet.options.rarity,
+    }
+  },
+
+  fauxFolder: {
+    toggle: true,
+    folderProperty: 'Type',
+    parameters: charadex.sheet.options.traitTypes,
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: true,
+    parameters: ['All', 'Codex']
   },
 
   prevNext: {

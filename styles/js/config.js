@@ -49,8 +49,9 @@ charadex.sheet = {
     rarity: ['All', 'Plentiful', 'Common', 'Uncommon', 'Rare'],
     species: ['All', 'Fey', 'Titan'],
     itemTypes: ['All', 'Currency', 'Achievement', 'Background', 'Ophern Egg', 'Gear (Ophern)', 'Gear (Explorer)', 'Consumable', 'Companion', 'Import Edit', 'Mutagen'],
-    traitTypes: ['All', 'Wings', 'Mutations', 'Colour Mutations', 'Mutagens']
-    
+    traitTypes: ['All', 'Wings', 'Mutations', 'Colour Mutations', 'Mutagens'],
+    genres: ['All', 'People', 'Places', 'Factions', 'Species', 'History', 'Misc']
+
   }
 
 }
@@ -185,15 +186,14 @@ charadex.page.encyclopedia = {
   filters: {
     toggle: true,
     parameters: {
-      'Type': charadex.sheet.options.traitTypes,
-      'Rarity': charadex.sheet.options.rarity,
+      'Genre': charadex.sheet.options.genres,
     }
   },
 
   fauxFolder: {
     toggle: true,
-    folderProperty: 'Type',
-    parameters: charadex.sheet.options.traitTypes,
+    folderProperty: 'Genre',
+    parameters: charadex.sheet.options.genres,
   },
 
   search: {

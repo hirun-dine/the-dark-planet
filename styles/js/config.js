@@ -37,7 +37,7 @@ charadex.sheet = {
     items:         "items",
     traits:        "traits",
     encyclopedia:  "encyclopedia",
-    prompts:       "prompts",
+    exploring:       "exploring",
     markings:      "markings",
     staff:         "mods",
   },
@@ -210,12 +210,12 @@ charadex.page.encyclopedia = {
 };
 
 
-/* Prompts
+/* Exploring
 /* --------------------------------------------------------------- */
-charadex.page.prompts = {
+charadex.page.exploring = {
 
-  sheetPage: charadex.sheet.pages.prompts,
-  sitePage: 'prompts',
+  sheetPage: charadex.sheet.pages.exploring,
+  sitePage: 'exploring',
   dexSelector: 'charadex',
   profileProperty: 'title',
 

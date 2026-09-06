@@ -10,10 +10,10 @@ import { charadex } from '../charadex.js';
 document.addEventListener("DOMContentLoaded", async () => {
   let dex = await charadex.initialize.page(
     null, 
-    charadex.page.faq, 
+    charadex.page.markings, 
     (arr) => {
 
-      let pageUrl = charadex.url.getPageUrl(charadex.page.faq.sitePage);
+      let pageUrl = charadex.url.getPageUrl(charadex.page.markings.sitePage);
       for (let question of arr) {
 
         // Make the tags pretty and actually work <3

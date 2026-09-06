@@ -33,11 +33,11 @@ charadex.sheet = {
     masterlistLog: "masterlist log",
     handlers:      "handlers",
     inventory:     "inventory",
-    inventoryLog:  "inventory log",
+    handlerLog:    "handler log",
     items:         "items",
     traits:        "traits",
     encyclopedia:  "encyclopedia",
-    exploring:       "exploring",
+    exploring:     "exploring",
     markings:      "markings",
     staff:         "mods",
   },
@@ -481,9 +481,9 @@ charadex.page.inventory = {
   // Related Data
   relatedData: {
 
-    [charadex.sheet.pages.inventoryLog]: {
+    [charadex.sheet.pages.handlerLog]: {
 
-      sheetPage: charadex.sheet.pages.inventoryLog,
+      sheetPage: charadex.sheet.pages.handlerLog,
       sitePage: 'inventories',
       primaryProperty: 'handler',
       relatedProperty: 'handler',
@@ -619,9 +619,9 @@ charadex.page.handlers = {
   // Related Data
   relatedData: {
 
-    [charadex.sheet.pages.inventoryLog]: {
+    [charadex.sheet.pages.handlerLog]: {
 
-      sheetPage: charadex.sheet.pages.inventoryLog,
+      sheetPage: charadex.sheet.pages.handlerLog,
       sitePage: 'handlers',
       primaryProperty: 'handler',
       relatedProperty: 'handler',

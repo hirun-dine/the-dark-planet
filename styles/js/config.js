@@ -38,7 +38,7 @@ charadex.sheet = {
     traits:        "traits",
     encyclopedia:  "encyclopedia",
     prompts:       "prompts",
-    faq:           "faq",
+    markings:      "markings",
     staff:         "mods",
   },
 
@@ -305,12 +305,12 @@ charadex.page.staff = {
 };
 
 
-/* FAQ
+/* Markings
 /* --------------------------------------------------------------- */
-charadex.page.faq = {
+charadex.page.markings = {
 
-  sheetPage: charadex.sheet.pages.faq,
-  sitePage: 'faq',
+  sheetPage: charadex.sheet.pages.markings,
+  sitePage: 'markings',
   dexSelector: 'charadex',
   profileProperty: 'id',
 
@@ -335,15 +335,15 @@ charadex.page.faq = {
   },
 
   fauxFolder: {
-    toggle: false,
-    folderProperty: '',
-    parameters: [],
+    toggle: true,
+    folderProperty: 'rarity',
+    'Rarity': charadex.sheet.options.rarity,
   },
 
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Question', 'Answer', 'Tags']
+    parameters: ['All', 'Marking', 'Tags']
   },
 
   prevNext: {

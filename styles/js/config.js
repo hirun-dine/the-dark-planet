@@ -50,7 +50,8 @@ charadex.sheet = {
     species: ['All', 'Fey', 'Titan'],
     itemTypes: ['All', 'Currency', 'Achievement', 'Background', 'Ophern Egg', 'Gear (Ophern)', 'Gear (Explorer)', 'Consumable', 'Companion', 'Import Edit', 'Mutagen'],
     traitTypes: ['All', 'Wings', 'Mutations', 'Colour Mutations', 'Mutagens'],
-    genres: ['All', 'People', 'Places', 'Factions', 'Species', 'History', 'Misc']
+    genres: ['All', 'People', 'Places', 'Factions', 'Species', 'History', 'Misc'],
+    markingRarity: ['All', 'Plentiful', 'Common', 'Uncommon', 'Rare']
 
   }
 
@@ -336,8 +337,8 @@ charadex.page.markings = {
 
   fauxFolder: {
     toggle: true,
-    folderProperty: 'Rarity',
-    'Rarity': charadex.sheet.options.rarity,
+    folderProperty: 'Marking Rarity',
+    'Marking Rarity': charadex.sheet.options.markingRarity,
   },
 
   search: {

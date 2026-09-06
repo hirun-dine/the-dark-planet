@@ -313,7 +313,7 @@ charadex.page.markings = {
   sheetPage: charadex.sheet.pages.markings,
   sitePage: 'markings',
   dexSelector: 'charadex',
-  profileProperty: 'id',
+  profileProperty: 'marking',
 
   sort: {
     toggle: false,
@@ -329,9 +329,9 @@ charadex.page.markings = {
   },
 
   filters: {
-    toggle: false,
+    toggle: true,
     parameters: {
-      'TBA': [],
+      'Marking Rarity': charadex.sheet.options.markingRarity,
     }
   },
 

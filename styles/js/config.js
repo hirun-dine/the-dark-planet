@@ -336,7 +336,7 @@ charadex.page.markings = {
 
   fauxFolder: {
     toggle: true,
-    folderProperty: 'rarity',
+    folderProperty: 'Rarity',
     'Rarity': charadex.sheet.options.rarity,
   },
 

@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
 
         // Logs
-        if (charadex.tools.checkArray(profile.handlerlog)) {
+        if (charadex.tools.checkArray(profile.handlerLog)) {
           let logs = await charadex.initialize.page(
-            profile.handlerlog,
+            profile.handlerLog,
             charadex.page.inventory.relatedData['handlerlog'],
           );
         }
